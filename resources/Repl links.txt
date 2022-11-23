@@ -1,0 +1,8 @@
+Figma file
+---> https://www.figma.com/file/AIxAyWJsWvOp2JFgJppC90/Coding-Club-Designs?node-id=53%3A2
+
+Repl link
+---> https://replit.com/@PythonHQ/Competition-project#index.html
+
+Repl finished product
+---> https://Competition-project.pythonhq.repl.co

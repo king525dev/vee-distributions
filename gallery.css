@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.galleria{
+  background-color: rgba(52, 52, 52, 0.69);
+  padding: 2rem;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-auto-rows: 17rem;
+}
+
+.cardo{
+  object-fit: cover;
+  transition: all 0.7s ease;
+  width: auto;
+}
+.cardo:hover{
+  border-radius: 10px;
+  z-index: 1;
+  transform: scale(1.1795);
+}
+
+
+@media screen and (min-width: 600px){
+    .tall{
+    grid-row: span 2 / auto;
+  }
+  
+  .wide{
+    grid-column: span 2 / auto;
+  }
+
+  .tall-1{
+    grid-row: span 3 / auto;
+  }
+  
+  .wide-1{
+    grid-column: span 3 / auto;
+  }
+}
